@@ -73,6 +73,7 @@ body{
     -o-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    image-rendering: pixelated;
 }
 .cenario{
     position: absolute;
