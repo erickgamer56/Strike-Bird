@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike Bird</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/420568684747161600/901231739765133342/passarored.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="description">
+</head>
+<body>
+    <section class="viewport">
+        <div class="janela" id="janela">
+            <div class="cenario"><h1 id="cenario">Ilha</h1></div>
+            <div class="menu" id="menu">
+                <div class="h1 h12"><h1>Strike Bird</h1></div>
+                <div class="inps">
+                    <input type="text" id="nome" class="inp nomej" placeholder="Nome" maxlength="20">
+                    <input type="button" value="START" class="inp btn" id="start">
+                </div>
+                <div class="byerick"><h3>by Erick</h3></div>
+            </div>
+            <div class="clicktodead" id="clicktodead">
+            </div>
+            <div class="perdeu" id="perdeu">
+                <div class="h1"><h1>Perdeu</h1></div>
+                <div class="inps">
+                    <input type="button" value="Jogar De Novo" class="inp btn btnp" id="backtogame">
+                    <input type="button" value="Salvar Record" class="inp btn btnp" id="salvar">
+                    <input type="button" value="Back to menu"  class="inp btn btnp" id="backtomenu">
+                </div>
+            </div>
+            <div class="armafogo" id="armafogo">
+                <div><img src="img/arma.png" class="arma"></div>
+                <div><img src="img/n3.png" class="fogo" id="fogo"></div>
+            </div>
+            <div class="ce">
+                <div id="passarosden">
+                    <img src="img/passaro.png" class="passaro">
+                </div>
+            </div>
+        </div>
+        <div class="pontos">
+            <div class="Nome" id="nomewrite">Nothing</div>
+            <div class="Pontos" id="write">Pontos: 0</div>
+            <div class="Record" id="record">Record: 0</div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
